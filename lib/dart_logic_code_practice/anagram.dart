@@ -21,11 +21,11 @@ main() {
   if (textOne.length == textTwo.length) {
     ///first compare each length and if same then goto next step
 
-    List<String> textOneList = textOne.split('')..sort(); // split eachLetter and sort and store in list
-    List<String> textTwoList = textTwo.split('')..sort(); // split eachLetter and sort and store in list
+    List<String> textOneList = textOne.split('')..sort(); // split eachLetter and sort using cascade
+    List<String> textTwoList = textTwo.split('')..sort(); // split eachLetter and sort using cascade
 
-    print(textOneList);
-    print(textTwoList);
+    print(textOneList); // printing for testing
+    print(textTwoList); // printing for testing
 
     String textOneNew = textOneList.join(); // join the list into String for comparison
     String textTwoNew = textTwoList.join(); // join the list into String for comparison
@@ -41,3 +41,15 @@ main() {
   }
 }
 
+/// modified code
+// main() {
+//   String textOne = "silent";
+//   String textTwo = "listen";
+//
+//   if (textOne.length == textTwo.length) ;  // return true/false by default
+//
+//   List<String> textOneList = textOne.split('')..sort();
+//   List<String> textTwoList = textTwo.split('')..sort();
+//
+//   print(textOneList.join() == textTwoList.join());  // return true/false by default
+// }
