@@ -1,11 +1,11 @@
 //
-// Check Anagram (re-arranging letters of a word to form another meaningful word)
+/// Check Anagram (re-arranging letters of a word to form another meaningful word)
 
-// Problem:
-// Determine if two strings are anagrams of each other.
+/// Problem:
+/// Determine if two strings are anagrams of each other.
 //
 // Tip:
-// Two strings are anagrams if they contain the same characters with the same frequencies.
+/// Two strings are anagrams if they contain the same characters with the same frequencies.
 //
 // Step-by-Step Explanation:
 //

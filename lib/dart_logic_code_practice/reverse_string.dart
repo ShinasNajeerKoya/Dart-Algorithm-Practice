@@ -1,7 +1,9 @@
-// Problem: Write a function to reverse a given string.
+/// Problem:
+/// Write a function to reverse a given string.
+
 
 // Tip:
-// To reverse a string, " you can iterate through the string from the end to the beginning " and build a new string.
+/// To reverse a string, " you can iterate through the string from the end to the beginning " and build a new string.
 
 // Step-by-Step Explanation:
 
@@ -16,12 +18,13 @@ main() {
 
   String reversedString = '';
 
-  // for(start point, end point, operation)
+  /// for(start point, end point, operation)
 
-  //to reverse string, start from the last value and come back to first
-  //starts from text.length - 1(last[it is used for index]) and ends at zero
+  ///to reverse string, start from the last value and come back to first
+  ///starts from text.length - 1(last[it is used for index]) and ends at zero
+
   for (int i = text.length - 1; i >= 0; i--) {
-    reversedString += text[i]; //+= acts as revS = revS + text[index]
+    reversedString += text[i];        //+= acts as revS = revS + text[index]
   }
 
   print(reversedString);
