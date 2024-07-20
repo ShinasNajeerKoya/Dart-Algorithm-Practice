@@ -14,11 +14,11 @@
 // 6.Return the result string.
 
 main() {
-  String text = "aabbccddsshsd";
+  String text = "aabbDccddDDsshsd";
 
   String res = noDuplicate(text);
 
-  print(res);
+  print(res);   //abDcdsh
 }
 
 String noDuplicate(String text) {
