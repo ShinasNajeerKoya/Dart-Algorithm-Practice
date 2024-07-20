@@ -30,6 +30,9 @@ main() {
     String textOneNew = textOneList.join(); // join the list into String for comparison
     String textTwoNew = textTwoList.join(); // join the list into String for comparison
 
+    //   String textOneNew = (textOne.split("")..sort()).join();    //simplified
+    //   String textTwoNew = (textTwo.split("")..sort()).join();    //simplified
+
     /// function to authenticate
     if (textOneNew == textTwoNew) {
       print(true);
@@ -40,6 +43,8 @@ main() {
     print(false);
   }
 }
+
+/// issue : contains sorting the list so it takes O(n log n) time complexity. Can be improved further.
 
 /// modified code
 // main() {
